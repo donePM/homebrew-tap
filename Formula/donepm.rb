@@ -1,10 +1,10 @@
 # Rendered by .github/workflows/release.yml into donePM/homebrew-tap as Formula/donepm.rb.
-# 0.1.0 and 37b45a630c77658fea3aa806b2fc44d55e4547dfc70dc9cb9b2b113157361727 are replaced there; edit this template, not the tap's copy.
+# 0.2.0 and 94ca96082ebae6cf19e1e1158374cf1c16538f24337963be32525f05041be3d9 are replaced there; edit this template, not the tap's copy.
 class Donepm < Formula
   desc "Local board that runs a coding agent per issue and drafts every outward action"
   homepage "https://github.com/donePM/donepm"
-  url "https://github.com/donePM/donepm/releases/download/v0.1.0/donepm-0.1.0.tar.gz"
-  sha256 "37b45a630c77658fea3aa806b2fc44d55e4547dfc70dc9cb9b2b113157361727"
+  url "https://github.com/donePM/donepm/releases/download/v0.2.0/donepm-0.2.0.tar.gz"
+  sha256 "94ca96082ebae6cf19e1e1158374cf1c16538f24337963be32525f05041be3d9"
 
   depends_on :macos
   depends_on "node"
