@@ -2,10 +2,10 @@
 cask "nudged" do
   app "nudged.app"
 
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
-    sha256 "7f26332da187e7ca52e220b9f1b30d97b5adba43f7a58069645aa7bbd5db8292"
+    sha256 "24b20622f3731cad64311f0fd480996a23eac0da63bbec1bdbc1a4db8b6986aa"
     url "https://github.com/donePM/nudged/releases/download/v#{version}/nudged_#{version}_darwin_universal.zip"
   end
 
